@@ -1,4 +1,4 @@
-build/*
+build/assets/*
 
 # frontend related
 .sass-cache/
