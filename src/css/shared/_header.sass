@@ -1,0 +1,74 @@
+.#{$ns}-header
+  position: relative
+  height: 556px
+  margin-bottom: 110px
+
+.#{$ns}-header--background
+  object-fit: cover
+  height: 556px
+  width: 100%
+
+.#{$ns}-header--intro
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+
+  p
+    color: $color-white
+    max-width: 50%
+
+.#{$ns}-header--nav
+  height: 70px
+  background-color: $color-green
+  padding-top: 11px
+
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+    float: left
+    padding-top: 13px
+
+  li
+    display: inline-block
+    cursor: pointer
+    text-transform: uppercase
+    color: $color-green-dark
+    padding: 0px 12px
+    position: relative
+    opacity: 0.52
+
+    &:first-child
+      padding-left: 0px
+
+    &:last-child
+      padding-right: 0px
+
+    &.active
+      &::after
+        position: absolute
+        background: $color-green-dark
+        height: 4px
+        width: calc(100% - 12px)
+        bottom: -10px
+        left: 0
+        content: ''
+
+.#{$ns}-header--search
+  height: 45px
+  background: #BEC518
+  border: 1px solid #AEB512
+  border-radius: 3px
+  max-width: 265px
+  width: 100%
+  float: right
+  padding: 0 18px
+  transition: all .3s ease-in-out
+
+  &:focus
+    outline: 0
+    border-color: #959c0c
+
+.#{$ns}-header--search::placeholder
+  color: #92970D

@@ -1,0 +1,22 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.4.0",
+  "homepage": "http://mzdr.it",
+  "description": "Gulp Boilerplate",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "latest",
+    "picturefill": "latest",
+    "flexboxgrid": "^6.3.0"
+  },
+  "overrides": {}
+}

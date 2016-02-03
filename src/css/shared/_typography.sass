@@ -1,0 +1,54 @@
+// -----------------------------------------------------------------------------
+// Common font weights.
+// (http://www.w3.org/TR/css3-fonts/#font-weight-prop)
+// -----------------------------------------------------------------------------
+// 100 - Thin
+// 200 - Extra Light (Ultra Light)
+// 300 - Light
+// 400 - Normal
+// 500 - Medium
+// 600 - Semi Bold (Demi Bold)
+// 700 - Bold
+// 800 - Extra Bold (Ultra Bold)
+// 900 - Black (Heavy)
+// -----------------------------------------------------------------------------
+
+
+// -----------------------------------------------------------------------------
+// Document basics.
+// -----------------------------------------------------------------------------
+:root
+  color: $text-color
+  font:
+    family: Helvetica, sans-serif
+    size: 16px
+  line-height: 1.4em
+  text-rendering: optimizeLegibility
+// -----------------------------------------------------------------------------
+
+
+// -----------------------------------------------------------------------------
+// Headlines.
+// -----------------------------------------------------------------------------
+// h1
+// h2
+// h3
+// -----------------------------------------------------------------------------
+
+a
+  color: $color-green
+  text-decoration: none
+
+h2
+  border-bottom: 1px solid $color-gray-light
+  padding-bottom: 30px
+  color: $color-blue
+
+  span
+    display: block
+    max-width: $viewport-xlarge
+    width: 100%
+    margin: 0 auto
+
+h3
+  color: $color-blue
