@@ -7,14 +7,21 @@
     .#{$ns}-banner--content
       opacity: 1
 
-
   img
     cursor: pointer
 
-
 .#{$ns}-banner--content
   @extend %box
-
   transition: all 1s $curve
-
   opacity: 0
+  line-height: 1.7
+
+.#{$ns}-banner--content---left
+  font-family: $font-serif
+  color: $color-blue
+
+.#{$ns}-banner--content---right
+  color: $color-blue-light
+
+  .#{$ns}-rating
+    margin-top: 1px

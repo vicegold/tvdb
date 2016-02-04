@@ -96,6 +96,52 @@
   </div>
 </section>
 
+<section class="tv-show--actors">
+  <h2><span>Actors <a href="#">View all 8</a></span></h2>
+  <div class="tv-wrapper">
+
+    <div class="row">
+      <div class="col-sm-4 tv-actor">
+        <div class="box">
+          <img src="http://thetvdb.com/banners/actors/343780.jpg" alt="Season 1" />
+          <div class="tv-actor--content">
+            <h3>Bob Odenkirk</h3>
+            <span>
+              as James "Jimmy" McGill
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4 tv-actor">
+        <div class="box">
+          <img src="http://thetvdb.com/banners/actors/343781.jpg" alt="Season 2" />
+          <div class="tv-actor--content">
+            <h3>Jonathan Banks</h3>
+            <span>
+              as Mike Ehrmantraut
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 tv-actor">
+        <div class="box">
+          <img src="http://thetvdb.com/banners/actors/334027.jpg" alt="Season 2" />
+          <div class="tv-actor--content">
+            <h3>Michael McKean</h3>
+            <span>
+              as Chuck McGill
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <section class="tv-show--banners">
   <h2><span>Banners <a href="#">View all 10</a></span></h2>
   <div class="tv-wrapper">
@@ -108,7 +154,7 @@
             <!-- -->
 
             <div class="row">
-              <div class="col-md-5">
+              <div class="col-md-4 tv-banner--content---left">
                 <div class="box-row">
                   <ul class="unstyled">
                     <li>Site Rating</li>
@@ -121,10 +167,18 @@
                 </div>
               </div>
 
-              <div class="col-md-7">
+              <div class="col-md-8 tv-banner--content---right">
                 <div class="box-row">
                   <ul class="unstyled">
-                    <li>Stars</li>
+                    <li>
+                      <div class="tv-rating">
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                      </div>
+                    </li>
                     <li>2</li>
                     <li>January 20, 2015 15:25</li>
                     <li><a href="#">JohnnyTwoHats</a></li>
