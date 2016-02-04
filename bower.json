@@ -16,7 +16,8 @@
   "dependencies": {
     "normalize-css": "latest",
     "picturefill": "latest",
-    "flexboxgrid": "^6.3.0"
+    "flexboxgrid": "^6.3.0",
+    "jquery": "^2.2.0"
   },
   "overrides": {}
 }

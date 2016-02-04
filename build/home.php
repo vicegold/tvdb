@@ -17,13 +17,13 @@
       <?php foreach ($recommendedShow as $rec) : ?>
 
         <div class="col-sm-6 col-md-4">
-          <div class="box-row tv-card">
+          <a href="/?page=show" class="box-row tv-card">
             <img class="tv-card--image" src="<?php echo $rec[1]; ?>" alt="<?php echo $rec[0]; ?>" />
             <div class="tv-card--content">
               <h3><?php echo $rec[0]; ?></h3>
               <p><?php echo $rec[2]; ?></p>
             </div>
-          </div>
+          </a>
         </div>
       <?php endforeach; ?>
     </div>

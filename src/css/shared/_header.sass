@@ -75,6 +75,34 @@
   height: 70px
   background-color: $color-green
   padding-top: 11px
+  overflow: hidden
+
+  .#{$ns}-header--nav---logo
+    position: absolute
+    width: 136px
+    height: 22px
+    opacity: 0
+    padding: 0
+    transition: opacity 2s $curve
+
+  &.fixed
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 99999
+
+    li:nth-child(2)
+      margin-left: 170px
+
+    .#{$ns}-header--nav---logo
+      opacity: 1
+
+    svg
+      display: inline-block
+      fill: $color-white
+      height: 22px
+      width: 136px
 
   &::after
     @extend %clear
@@ -97,8 +125,9 @@
     font-family: $font-nav
     font-weight: 600
     letter-spacing: 1px
+    transition: margin .7s ease-in-out
 
-    &:first-child
+    &:nth-child(2)
       padding-left: 0px
 
     &:last-child
@@ -115,7 +144,7 @@
         content: ''
 
 .#{$ns}-header--search
-  height: 45px
+  height: 47px
   background: #BEC518
   border: 1px solid #AEB512
   border-radius: 3px
