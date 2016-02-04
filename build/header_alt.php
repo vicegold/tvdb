@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>TVDB</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://use.typekit.net/cwp7kof.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
     <header class="tv-header show">
@@ -24,7 +26,6 @@
             <li>Forums</li>
             <li>Login</li>
           </ul>
-
           <input class="tv-header--search" type="text" name="name" placeholder="Search TheTVDB…">
         </div>
       </nav>

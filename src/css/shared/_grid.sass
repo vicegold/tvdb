@@ -1,5 +1,12 @@
+$spacing: 22px
+
 .#{$ns}-wrapper
   max-width: $viewport-xlarge
   width: 100%
   margin: 0 auto
   position: relative
+
+@media only screen and (min-width: 64em)
+  .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-offset-1, .col-md-offset-2, .col-md-offset-3, .col-md-offset-4, .col-md-offset-5, .col-md-offset-6, .col-md-offset-7, .col-md-offset-8, .col-md-offset-9, .col-md-offset-10, .col-md-offset-11, .col-md-offset-12
+    padding-left: #{$spacing / 2}
+    padding-right: #{$spacing / 2}

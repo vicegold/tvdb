@@ -1,0 +1,28 @@
+.#{$ns}-episode
+  position: relative
+  padding: 11px 0 12px 0
+
+  &::after
+    content: ''
+    border-bottom: 1px solid $color-gray-light
+    position: absolute
+    bottom: 0
+    left: 8px
+    right: 8px
+
+  &:last-of-type
+    &::after
+      display: none
+
+  h4
+    margin: 25px 0 0 0
+
+.#{$ns}-episode--number
+  letter-spacing: 0.4px
+  line-height: 1.7
+  font-family: $font-sans
+  color: $color-blue-light
+  padding-bottom: 4px
+
+  span
+    color: rgba($color-gray, 0.4)

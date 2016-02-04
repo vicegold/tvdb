@@ -14,14 +14,41 @@
 // -----------------------------------------------------------------------------
 
 
+$font-sans: "adelle-sans", sans-serif
+$font-serif: "adelle", serif
+$font-nav: "proxima-nova", sans-serif
+
+// -----------------------------------------------------------------------------
+
+$pixelBase : 16
+@mixin font-size($sizeValue: 1.6)
+  font-size: ($sizeValue) + px
+  font-size: (($sizeValue) / $pixelBase)  + rem
+
+$baseline-px: 16px
+@mixin rem($property, $px-values)
+  $baseline-rem: $baseline-px / 1rem
+  #{$property}: $px-values
+  @if type-of($px-values) == "number"
+    #{$property}: $px-values / $baseline-rem
+  @else
+    $rem-values: unquote("")
+    @each $value in $px-values
+      @if $value == 0 or type-of($value) == "string" or type-of($value) == "color"
+        $rem-values: append($rem-values, $value)
+      @else
+        $rem-values: append($rem-values, $value / $baseline-rem)
+    #{$property}: $rem-values
+
+
 // -----------------------------------------------------------------------------
 // Document basics.
 // -----------------------------------------------------------------------------
 :root
   color: $text-color
   font:
-    family: Helvetica, sans-serif
-    size: 22px
+    family: $font-sans
+    size: 16px
   line-height: 1.4em
   text-rendering: optimizeLegibility
 // -----------------------------------------------------------------------------
@@ -39,10 +66,27 @@ a
   color: $color-green
   text-decoration: none
 
+p
+  +font-size(16)
+  font-family: $font-sans
+  letter-spacing: 0.4px
+  line-height: 1.7
+
+h1
+  color: #fff
+  +font-size(55)
+  margin-top: 70px
+  font-family: $font-nav
+
 h2
   border-bottom: 1px solid $color-gray-light
-  padding-bottom: 30px
+  padding-bottom: 26.1px
   color: $color-blue
+  font-family: $font-serif
+  font-weight: normal
+  +font-size(34)
+  letter-spacing: 0.3px
+  margin-top: 100px
 
   span
     display: block
@@ -52,3 +96,15 @@ h2
 
 h3
   color: $color-blue
+  font-family: $font-serif
+  font-weight: 600
+  +font-size(22)
+  // @extend %font-smoothing-antialiased
+  letter-spacing: 0.2px
+
+h4
+  color: $color-blue
+  font-family: $font-serif
+  +font-size(18)
+  font-weight: 600
+  letter-spacing: 0.2px
