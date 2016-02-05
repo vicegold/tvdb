@@ -16,7 +16,7 @@
 
       <?php foreach ($recommendedShow as $rec) : ?>
 
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4 col-xs-12">
           <a href="/?page=show" class="box-row tv-card">
             <img class="tv-card--image" src="<?php echo $rec[1]; ?>" alt="<?php echo $rec[0]; ?>" />
             <div class="tv-card--content">
