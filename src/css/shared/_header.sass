@@ -252,17 +252,18 @@
         content: ''
 
 .#{$ns}-header--search
-  height: 47px
+  @extend %appearance-none
   background: #BEC518
-  border: 1px solid #AEB512
   border-radius: 3px
-  max-width: 265px
-  width: 100%
+  border: 1px solid #AEB512
   float: right
+  font-family: $font-serif
+  height: 47px
+  margin-top: 12px
+  max-width: 265px
   padding: 0 18px
   transition: all .3s ease-in-out
-  font-family: $font-serif
-  margin-top: 12px
+  width: 100%
 
   @media only screen and (min-width: #{$viewport-large - 1}) and (max-width: 1156px)
     max-width: 210px
