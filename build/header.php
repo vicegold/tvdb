@@ -9,7 +9,10 @@ if(isset($_GET['page'])) {
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title><?php if($page == "show"){echo "Better Call Saul | ";} ?>TheTVDB.com</title>
+
     <script src="https://use.typekit.net/cwp7kof.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link rel="stylesheet" href="/assets/css/styles.css">
