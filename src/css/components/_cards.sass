@@ -12,6 +12,10 @@
     img
       transform: scale(1.2)
 
+    .#{$ns}-card--content
+      transform: scale(1.0055) translateX(0.5px)
+
+
 
 .#{$ns}-card--image
   border-top-left-radius: 3px
@@ -24,6 +28,7 @@
   background: $color-white
   z-index: 9999
   position: relative
+  transition: all .3s ease
 
   h3
     margin: 0 0 15px 0

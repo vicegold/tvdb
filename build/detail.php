@@ -15,7 +15,7 @@
 
   <div class="tv-wrapper">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-xs-12 col-md-7 col-sm-7">
         <div class="box-row">
           <h3>Description</h3>
           <p>
@@ -26,11 +26,11 @@
           </p>
         </div>
       </div>
-      <div class="col-md-offset-2 col-md-3">
+      <div class="col-xs-12 col-md-offset-2 col-md-3 col-sm-4 col-sm-offset-1 tv-show--info">
         <div class="box-row">
           <h3>Information</h3>
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-xs-6 col-md-5 col-sm-5">
               <div class="box-row">
                 <ul class="unstyled tv-show--list">
                   <li>First Aired</li>
@@ -43,7 +43,7 @@
               </div>
             </div>
 
-            <div class="col-md-7">
+            <div class="col-xs-6 col-md-7 col-sm-7">
               <div class="box-row">
                 <ul class="unstyled">
                   <li>February 8, 2015</li>
@@ -68,7 +68,7 @@
   <div class="tv-wrapper">
 
     <div class="row">
-      <div class="col-sm-4 tv-season">
+      <div class="col-xs-6 col-sm-6 col-md-4 tv-season">
         <div class="box">
           <img src="http://thetvdb.com/banners/seasons/273181-1-2.jpg" alt="Season 1" />
           <div class="tv-season--content">
@@ -80,7 +80,7 @@
 
         </div>
       </div>
-      <div class="col-sm-4 tv-season">
+      <div class="col-xs-6 col-sm-6 col-md-4 tv-season">
         <div class="box">
           <img src="http://thetvdb.com/banners/seasons/273181-2.jpg" alt="Season 2" />
           <div class="tv-season--content">
@@ -101,7 +101,7 @@
   <div class="tv-wrapper">
 
     <div class="row">
-      <div class="col-sm-4 tv-actor">
+      <div class="col-xs-6 col-sm-6 col-md-4 tv-actor">
         <div class="box">
           <img src="http://thetvdb.com/banners/actors/343780.jpg" alt="Season 1" />
           <div class="tv-actor--content">
@@ -114,7 +114,7 @@
         </div>
       </div>
 
-      <div class="col-sm-4 tv-actor">
+      <div class="col-xs-6 col-sm-6 col-md-4 tv-actor">
         <div class="box">
           <img src="http://thetvdb.com/banners/actors/343781.jpg" alt="Season 2" />
           <div class="tv-actor--content">
@@ -126,7 +126,7 @@
         </div>
       </div>
 
-      <div class="col-sm-4 tv-actor">
+      <div class="col-xs-6 col-sm-6 col-md-4 tv-actor">
         <div class="box">
           <img src="http://thetvdb.com/banners/actors/334027.jpg" alt="Season 2" />
           <div class="tv-actor--content">
@@ -147,7 +147,7 @@
   <div class="tv-wrapper">
 
     <div class="row">
-      <div class="col-sm-4 tv-banner">
+      <div class="col-xs-12 col-sm-4 tv-banner">
         <div class="box">
           <img src="http://thetvdb.com/banners/graphical/273181-g7.jpg" alt="" />
           <div class="tv-banner--content">
@@ -193,7 +193,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 tv-banner">
+      <div class="col-xs-12 col-sm-4 tv-banner">
         <div class="box">
           <img src="http://thetvdb.com/banners/graphical/273181-g5.jpg" alt="" />
           <div class="tv-banner--content">
@@ -201,7 +201,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 tv-banner">
+      <div class="col-xs-12 col-sm-4 tv-banner">
         <div class="box">
           <img src="http://thetvdb.com/banners/graphical/273181-g4.jpg" alt="" />
           <div class="tv-banner--content">

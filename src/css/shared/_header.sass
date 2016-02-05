@@ -1,14 +1,20 @@
 .#{$ns}-header
   position: relative
-  height: 556px
-  margin-bottom: 110px
+
+  @media only screen and (max-width: #{$viewport-large - 1})
+    margin-top: 70px
 
   &.show
     height: 156px
     margin-bottom: 70px
+    @media only screen and (max-width: #{$viewport-large - 1})
+      margin-bottom: 0px
 
     .#{$ns}-header--background
       height: 156px
+
+      @media only screen and (max-width: 550px)
+        object-fit: none
 
     .#{$ns}-header--intro
       background: rgba(0,0,0,0.8)
@@ -19,20 +25,33 @@
 
 .#{$ns}-header--background
   object-fit: cover
-  height: 556px
+  height: 100%
   width: 100%
-
-.#{$ns}-header--intro
+  object-position: left center
   position: absolute
   top: 0
   left: 0
+
+  // @media only screen and (max-width: #{$viewport-large - 1})
+  //   height: 650px
+
+
+.#{$ns}-header--intro
+  padding-bottom: 70px
   width: 100%
+
+  @media only screen and (max-width: #{$viewport-medium - 1})
+    padding-bottom: 1px
 
   svg
     margin: 80px 0 0 0
     fill: #ffffff
     width: 264px
     height: 42px
+
+    @media only screen and (max-width: #{$viewport-medium - 1})
+      margin-top: 26px
+
   span
     color: $color-green
     font-family: $font-serif
@@ -67,15 +86,37 @@
     letter-spacing: 0.5px
     margin-bottom: 20px
 
+    @media only screen and (max-width: #{$viewport-large - 1})
+      max-width: 75%
+
+    @media only screen and (max-width: #{$viewport-medium - 1})
+      max-width: 100%
+
     &:first-of-type
       margin-top: 0px
       padding-top: 50px
+
+      @media only screen and (max-width: #{$viewport-medium - 1})
+        padding-top: 20px
 
 .#{$ns}-header--nav
   height: 70px
   background-color: $color-green
   padding-top: 11px
   overflow: hidden
+  position: relative
+  z-index: 99999
+
+  @media only screen and (max-width: #{$viewport-large - 1})
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+
+  &.mobilescroll
+    @media only screen and (max-width: #{$viewport-large - 1})
+      .#{$ns}-header--mobilelogo
+        opacity: 1
 
   .#{$ns}-header--nav---logo
     position: absolute
@@ -83,26 +124,47 @@
     height: 22px
     opacity: 0
     padding: 0
-    transition: opacity 2s $curve
+    transition: opacity 1s $curve
+    transition-delay: 0s
+
+  .#{$ns}-header--mobilelogo
+    opacity: 0
+    margin: 13px 0 0 61px
+    display: none
+    transition: opacity .3s ease
+
+    @media only screen and (min-width: 521px) and (max-width: #{$viewport-large - 1})
+      display: inline-block
+
+  .#{$ns}-header--mobilemenu
+    margin: 13px 0 0 0px
+    display: none
+    width: 40px
+    position: absolute
+    top: 0
+    left: $spacing
+
+    @media only screen and (max-width: #{$viewport-large - 1})
+      display: inline-block
+
 
   &.fixed
     position: fixed
     top: 0
     left: 0
     width: 100%
-    z-index: 99999
 
     li:nth-child(2)
       margin-left: 170px
 
     .#{$ns}-header--nav---logo
       opacity: 1
+      transition-delay: .5s
 
-    svg
-      display: inline-block
-      fill: $color-white
-      height: 22px
-      width: 136px
+  svg
+    fill: $color-white
+    height: 22px
+    width: 136px
 
   &::after
     @extend %clear
@@ -113,6 +175,9 @@
     margin: 0
     float: left
     padding-top: 13px
+
+    @media only screen and (max-width: #{$viewport-large - 1})
+      display: none
 
   li
     display: inline-block
@@ -154,6 +219,9 @@
   padding: 0 18px
   transition: all .3s ease-in-out
   font-family: $font-serif
+
+  @media only screen and (max-width: #{$viewport-medium - 1})
+    max-width: 210px
 
   &:focus
     outline: 0

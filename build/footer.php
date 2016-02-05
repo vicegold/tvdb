@@ -1,7 +1,7 @@
     <footer class="tv-footer">
       <div class="tv-wrapper">
         <div class="row middle-sm">
-          <div class="col-sm-9">
+          <div class="col-sm-7">
             <div class="box box-container">
               <div class="row">
                 <div class="col-sm-1">
@@ -17,7 +17,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-5">
             <div class="box box-container">
               <div class="row">
                 <div class="col-xs-12">

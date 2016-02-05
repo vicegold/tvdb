@@ -4,10 +4,24 @@
   height: 556px
   width: 100%
 
+  @media only screen and (max-width: #{$viewport-medium - 1})
+    height: 300px
+
+
 .#{$ns}-show--intro
+
+  h2
+    .#{$ns}-rating
+      margin-top: 0px
+      margin-bottom: 12px
   ul
     color: $color-blue-light
     text-align: right
+    margin-top: 70px
+    line-height: 1.7
+    
+    @media only screen and (max-width: 767px)
+      text-align: left
 
   .#{$ns}-show--list
     font-family: $font-serif
@@ -16,5 +30,27 @@
     text-align: left
 
   .col-md-3
+    position: relative
     h3
       text-align: right
+      position: absolute
+      width: 100%
+      right: 14px
+      top: 0
+      @media only screen and (max-width: #{$viewport-large - 1})
+        right: 0
+        left: 8px
+      @media only screen and (max-width: 767px)
+        text-align: left
+
+.#{$ns}-show--info
+  @media only screen and (max-width: 767px)
+    width: 100%
+
+    .col-sm-5, .col-sm-7
+      width: 50%
+
+    .col-sm-5
+      margin-left: calc($spacing / 2)
+
+    .col-sm-7

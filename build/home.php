@@ -6,11 +6,11 @@
       <?php
         $recommendedShow = array(
           array("American Horror Story","http://thetvdb.com/banners/fanart/original/250487-11.jpg","American Horror Story is a horror-drama television franchise created and produced by Ryan Murphy and Brad Falchuk. Described as an anthology series, each season is conceived as a …"),
-          array("Anger Management","http://thetvdb.com/banners/fanart/original/253350-3.jpg","In A. Management, Sheen stars as \"Charlie,\" a non-traditional therapist specializing in anger management. Selma Blair, Shawnee Smith, Daniela Bobadilla, Michael Arden, and Noureen DeWulf co-star."),
-          array("Better Call Saul","http://thetvdb.com/banners/fanart/original/273181-4.jpg","We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny and, more immediately, hustling to make ends meet. Working alongside …"),
-          array("Bloodline","http://thetvdb.com/banners/fanart/original/287314-4.jpg","The Rayburns are hard-working pillars of their Florida Keys community. But when the black sheep son comes home for the 45th anniversary of his parents' hotel, he threatens to expose the Rayburns' dark …"),
-          array("Fargo","http://thetvdb.com/banners/fanart/original/269613-4.jpg","An American black comedy–crime drama anthology television series created and primarily written by Noah Hawley. The show is inspired by the 1996 film of the same name written and directed by the Coen …"),
-          array("Game of Thrones","http://thetvdb.com/banners/fanart/original/121361-83.jpg","Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected …")
+          array("Anger Management","http://thetvdb.com/banners/fanart/original/253350-3.jpg","In A. Management, Sheen stars as \"Charlie,\" a non-traditional therapist specializing in anger management. Selma Blair, Shawnee Smith, Daniela Bobadilla, Michael Arden, and …"),
+          array("Better Call Saul","http://thetvdb.com/banners/fanart/original/273181-4.jpg","We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny and, more immediately, hustling to make …"),
+          array("Bloodline","http://thetvdb.com/banners/fanart/original/287314-4.jpg","The Rayburns are hard-working pillars of their Florida Keys community. But when the black sheep son comes home for the 45th anniversary of his parents' hotel, he threatens to expose the …"),
+          array("Fargo","http://thetvdb.com/banners/fanart/original/269613-4.jpg","An American black comedy–crime drama anthology television series created and primarily written by Noah Hawley. The show is inspired by the 1996 film of the same name written and …"),
+          array("Game of Thrones","http://thetvdb.com/banners/fanart/original/121361-83.jpg","Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst …")
         );
       ?>
 

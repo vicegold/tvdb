@@ -17,6 +17,9 @@
   h4
     margin: 25px 0 0 0
 
+  .col-sm-2
+    width: 50px
+
 .#{$ns}-episode--number
   letter-spacing: 0.4px
   line-height: 1.7
@@ -26,3 +29,31 @@
 
   span
     color: rgba($color-gray, 0.4)
+
+.#{$ns}-episode
+  @media only screen and (max-width: 767px)
+
+    &::after
+      left: 0px
+      right: 0px
+    .col-sm-2
+      width: 60px
+      margin-left: 8px
+
+    .col-sm-10
+      margin-left: $spacing
+
+      h4
+        margin-top: 10px
+
+    .col-sm-8
+      position: absolute
+      left: 82px
+      top: 50px
+
+    .#{$ns}-episode--number
+      line-height: 1.2
+      span
+        opacity: 0
+        display: block
+        height: 0px

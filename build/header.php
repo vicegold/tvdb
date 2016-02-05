@@ -34,6 +34,8 @@ if(isset($_GET['page'])) {
       </div>
       <nav id="nav" class="tv-header--nav">
         <div class="tv-wrapper">
+          <svg class="icon tv-header--mobilemenu"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#icon-menu" /></svg>
+          <svg class="icon tv-header--mobilelogo"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#TheTVDB" /></svg>
           <ul>
             <li class="tv-header--nav---logo"><svg class="icon"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#TheTVDB" /></svg></li>
             <li>Home</li>
