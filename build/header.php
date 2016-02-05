@@ -48,6 +48,7 @@ if(isset($_GET['page'])) {
           </ul>
 
           <input class="tv-header--search" type="text" name="name" placeholder="Search TheTVDB…">
+
         </div>
       </nav>
     </header>

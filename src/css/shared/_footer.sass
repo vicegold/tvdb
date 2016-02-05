@@ -8,14 +8,38 @@
     height: 80px
     width: 80px
 
+    @media only screen and (max-width: #{$viewport-large - 1})
+      width: 60px
+      height: 60px
+      margin-top: 15px
+
+    @media only screen and (max-width: 969px)
+      margin-top: 27px
+
+    @media only screen and (max-width: 767px)
+      margin-top: 13px
+
+    @media only screen and (max-width: 426px)
+      width: 45px
+      height: 45px
+
+
 .#{$ns}-footer--cctext
-  padding-left: 30px
+  padding-left: 45px
+
+  @media only screen and (max-width: 767px)
+    padding-left: 0px
 
 .#{$ns}-footer--social
   text-align: right
   color: #7B7F0B
   font-family: $font-serif
   line-height: 1.7
+
+  @media only screen and (max-width: 767px)
+    text-align: left
+    padding-left: 16.667%
+
 
   span
     display: inline-block
@@ -26,3 +50,6 @@
     &:last-of-type
       border: 0
       padding-right: 0px
+
+    &:first-of-type
+      padding-left: 0px

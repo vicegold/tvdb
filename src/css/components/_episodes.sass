@@ -1,6 +1,12 @@
 .#{$ns}-episode
   position: relative
   padding: 11px 0 12px 0
+  transition: border-left .1s ease
+  cursor: pointer
+  border-left: 0px solid $color-green
+
+  &:hover
+    border-left: 5px solid $color-green
 
   &::after
     content: ''

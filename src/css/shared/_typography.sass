@@ -65,6 +65,10 @@ $baseline-px: 16px
 a
   color: $color-green
   text-decoration: none
+  transition: color .3s ease
+
+  &:hover
+    color: lighten($color-green, 30%)
 
 p
   +font-size(16)

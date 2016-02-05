@@ -147,17 +147,17 @@
   <div class="tv-wrapper">
 
     <div class="row">
-      <div class="col-xs-12 col-sm-4 tv-banner">
+      <div class="col-xs-12 col-md-4 col-sm-6 tv-banner">
         <div class="box">
           <img src="http://thetvdb.com/banners/graphical/273181-g7.jpg" alt="" />
           <div class="tv-banner--content">
             <!-- -->
 
             <div class="row">
-              <div class="col-md-4 tv-banner--content---left">
+              <div class="col-md-4 col-sm-5 col-xs-4 tv-banner--content---left">
                 <div class="box-row">
                   <ul class="unstyled">
-                    <li>Site Rating</li>
+                    <li>Rating</li>
                     <li>Ratings</li>
                     <li>Created</li>
                     <li>Creator</li>
@@ -167,7 +167,7 @@
                 </div>
               </div>
 
-              <div class="col-md-8 tv-banner--content---right">
+              <div class="col-md-8 col-sm-7 col-xs-8 tv-banner--content---right">
                 <div class="box-row">
                   <ul class="unstyled">
                     <li>
@@ -193,19 +193,95 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4 tv-banner">
+      <div class="col-xs-12 col-md-4 col-sm-6 tv-banner">
         <div class="box">
           <img src="http://thetvdb.com/banners/graphical/273181-g5.jpg" alt="" />
           <div class="tv-banner--content">
-            hi
+            <!-- -->
+
+            <div class="row">
+              <div class="col-md-4 col-sm-5 col-xs-4 tv-banner--content---left">
+                <div class="box-row">
+                  <ul class="unstyled">
+                    <li>Rating</li>
+                    <li>Ratings</li>
+                    <li>Created</li>
+                    <li>Creator</li>
+                    <li>Format</li>
+                    <li>Language</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-8 col-sm-7 col-xs-8 tv-banner--content---right">
+                <div class="box-row">
+                  <ul class="unstyled">
+                    <li>
+                      <div class="tv-rating">
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                      </div>
+                    </li>
+                    <li>2</li>
+                    <li>January 20, 2015 15:25</li>
+                    <li><a href="#">JohnnyTwoHats</a></li>
+                    <li>Graphical</li>
+                    <li>English</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <!-- -->
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-4 tv-banner">
+      <div class="col-xs-12 col-md-4 col-sm-6 tv-banner">
         <div class="box">
           <img src="http://thetvdb.com/banners/graphical/273181-g4.jpg" alt="" />
           <div class="tv-banner--content">
-            hi
+            <!-- -->
+
+            <div class="row">
+              <div class="col-md-4 col-sm-5 col-xs-4 tv-banner--content---left">
+                <div class="box-row">
+                  <ul class="unstyled">
+                    <li>Rating</li>
+                    <li>Ratings</li>
+                    <li>Created</li>
+                    <li>Creator</li>
+                    <li>Format</li>
+                    <li>Language</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-8 col-sm-7 col-xs-8 tv-banner--content---right">
+                <div class="box-row">
+                  <ul class="unstyled">
+                    <li>
+                      <div class="tv-rating">
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon filled"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                        <svg class="icon"><use xlink:href="/assets/svgsprites/symbol/svg/sprite.symbol.svg#star" /></svg>
+                      </div>
+                    </li>
+                    <li>2</li>
+                    <li>January 20, 2015 15:25</li>
+                    <li><a href="#">JohnnyTwoHats</a></li>
+                    <li>Graphical</li>
+                    <li>English</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <!-- -->
           </div>
         </div>
       </div>
