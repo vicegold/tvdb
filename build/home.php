@@ -5,7 +5,7 @@
 
       <?php
         $recommendedShow = array(
-          array("American Horror Story","http://thetvdb.com/banners/fanart/original/250487-11.jpg","American Horror Story is a horror-drama television franchise created and produced by Ryan Murphy and Brad Falchuk. Described as an anthology series, each season is conceived as a …"),
+          array("American Horror Story","http://thetvdb.com/banners/fanart/original/250487-54.jpg","American Horror Story is a horror-drama television franchise created and produced by Ryan Murphy and Brad Falchuk. Described as an anthology series, each season is conceived as a …"),
           array("Anger Management","http://thetvdb.com/banners/fanart/original/253350-3.jpg","In A. Management, Sheen stars as \"Charlie,\" a non-traditional therapist specializing in anger management. Selma Blair, Shawnee Smith, Daniela Bobadilla, Michael Arden, and …"),
           array("Better Call Saul","http://thetvdb.com/banners/fanart/original/273181-4.jpg","We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny and, more immediately, hustling to make …"),
           array("Bloodline","http://thetvdb.com/banners/fanart/original/287314-4.jpg","The Rayburns are hard-working pillars of their Florida Keys community. But when the black sheep son comes home for the 45th anniversary of his parents' hotel, he threatens to expose the …"),
@@ -47,7 +47,7 @@
         array("Community","http://thetvdb.com/banners/posters/94571-7.jpg","Demerol Drip"),
         array("Dads","http://thetvdb.com/banners/posters/269589-1.jpg","The Book of Total Badness"),
         array("Fargo","http://thetvdb.com/banners/posters/269613-2.jpg","Book Report"),
-        array("Fear the Walking Dead","http://thetvdb.com/banners/posters/290853-1.jpg","Run to Miami"),
+        array("Fear the Walking Dead","http://thetvdb.com/banners/posters/290853-8.jpg","Run to Miami"),
         array("Fortitude","http://thetvdb.com/banners/posters/281976-2.jpg","Bristol to Glastonbury"),
         array("Friends with Better Lives","http://thetvdb.com/banners/posters/269782-1.jpg","Excursion to Motor Ranch VR46"),
         array("Game of Thrones","http://thetvdb.com/banners/posters/121361-34.jpg","The Dreaded"),
@@ -59,7 +59,7 @@
         array("The Affair","http://thetvdb.com/banners/posters/270439-1.jpg","Mary Finniger"),
         array("The Flash","http://thetvdb.com/banners/posters/279121-27.jpg","Faster than Light"),
         array("The Knick","http://thetvdb.com/banners/posters/279977-7.jpg","St. Richards"),
-        array("The Simpsons","http://thetvdb.com/banners/posters/71663-18.jpg","Marge loves Homer"),
+        array("The Simpsons","http://thetvdb.com/banners/posters/71663-15.jpg","Marge loves Homer"),
         array("The Sopranos","http://thetvdb.com/banners/posters/75299-4.jpg","Colt"),
         array("Wayward Pines","http://thetvdb.com/banners/posters/269750-6.jpg","Find your way through the Garden")
       );
